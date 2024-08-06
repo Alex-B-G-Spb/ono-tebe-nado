@@ -67,7 +67,7 @@
     text-decoration-thickness: 1px;
 }
 
-.cover{
+.cover {
     min-width: 1100px;
     min-height: 757px;
     background-image: url(../images/cover.jpg);
@@ -187,7 +187,7 @@ h1 {
 
 .lots-heading {
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -234,7 +234,7 @@ h1 {
 .card-title {
     position: relative;
     z-index: 1;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 22px;
     font-weight: 700;
     line-height: 25.9px;
@@ -249,7 +249,7 @@ h1 {
 .card-text {
     position: relative;
     z-index: 1;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
@@ -259,7 +259,7 @@ h1 {
 
 .lots-more-link {
     text-transform: lowercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 23.48px;
@@ -292,7 +292,7 @@ h1 {
 
 .about-title {
     text-transform: uppercase;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 40px;
     font-weight: 700;
     line-height: 46.96px;
@@ -305,7 +305,7 @@ h1 {
     grid-column-start: 2;
     display: flex;
     flex-direction: column;
-    font-family: Raleway;
+    font-family: Raleway, sans-serif;
     font-size: 20px;
     font-weight: 400;
     line-height: 24px;
