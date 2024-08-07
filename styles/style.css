@@ -1,9 +1,9 @@
 /* место для вашего кода */
 .header {
-    height: 293px;
-    padding: 99px 24px 96px 24px;
+    min-height: 293px;
+    padding: 105px 24px 90px 24px;
     display: grid;
-    grid-template-columns: 454px 148px 450px;
+    grid-template-columns: 3fr 1fr 3fr;
     align-content: center;
 }
 
@@ -14,7 +14,7 @@
 
 .menu-list {
     display: flex;
-    gap: 32px;
+    gap: 31px;
 }
 
 .menu-item {
@@ -24,7 +24,7 @@
     list-style:circle;
 }
 
-.underline {
+.nav-link {
     text-decoration: none;
     border-bottom: 1px solid;
     letter-spacing: 0.01em;
@@ -32,11 +32,11 @@
 
 .active-item {
     list-style: none;
-    
 }
 
 .link-active {
     text-decoration: none;
+    border-bottom:none;
 }
 
 .logo {
@@ -87,7 +87,7 @@
    background-color: #000;
 }
 
-.first-title {
+.main-title {
     position: relative;
     z-index: 1;
     text-transform: uppercase;
@@ -102,34 +102,38 @@
 h1 {
     position: relative;
     z-index: 1;
+    letter-spacing: 0.3em;
 }
 
-.first-line {
+.left-line {
     display: block;
     padding-top: 165px;
-    margin: 0 734px 0 50px;
+    padding-left: 50px;
 }
 
-.last-letter-first {
+.last-letter-left-line {
     letter-spacing: 0.6em;
 }
 
-.second-line {
+.center-line {
     display: block;
-    margin: 13px 395px 0 336px;       
+    text-align: center;  
+    padding-top: 11px;
 }
 
-.last-letter-second {
+.last-letter-center-line {
     letter-spacing: 0.6em;
 }
 
-.third-line {
+.right-line {
     display: block;
-    margin: 6px 51px 0 633px;
+    text-align:end;
     letter-spacing: 0.6em;
+    padding-top: 5px;
+    padding-right: 20px;
 }
 
-.last-letter-third {
+.last-letter-right-line {
     letter-spacing: 0.3em;
 }
 
@@ -138,8 +142,7 @@ h1 {
     position: relative;
     z-index: 1;
     display: flex;
-    padding-left: 78px;
-    padding-right: 50px;
+    padding: 2px 50px 0 78px;
     text-transform: uppercase;
     justify-content: space-between;
 }
@@ -155,11 +158,11 @@ h1 {
     word-spacing: 20px;
 }
 
-.tagline-wordspace-second {
+.tagline-wordspace-little {
     word-spacing: 18px;
 }
 
-.tagline-wordspace-third {
+.tagline-wordspace-smaller {
     word-spacing: 19px;
 }
 
@@ -169,12 +172,12 @@ h1 {
     min-width: 256px;
     font-family: Raleway, sans-serif;
     font-size: 22px;
-    font-weight: 500px;
+    font-weight: 500;
     line-height: 25.83px;
     margin-top: 127px;
     color:white;
     text-transform: uppercase;
-    border-color: white;
+    border-color: currentColor;
     border-width: 1px;
     padding-bottom: 3px;
     padding-left: 4px;
@@ -200,6 +203,7 @@ h1 {
     list-style: none;
     display: flex;
     gap: 25px;
+    flex-wrap: wrap;
 }
 
 .card-link {
@@ -208,26 +212,26 @@ h1 {
 
 .card {
     position: relative;
-    min-width: 334px;
+    max-width: 334px;
     min-height: 563px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    padding: 52px 40px 48px 40px;
+    padding: 52px 40px 47px 40px;
     margin-bottom: 30px;
     background-size: cover;
     background-position: center;
 }
 
-.first-card {
+.cinema-card {
     background-image: url(../images/card-lot-01.jpg);
 }
 
-.second-card {
+.book-card {
     background-image: url(../images/card-lot-02.jpg);  
 }
 
-.third-card {
+.painting-card {
     background-image: url(../images/card-lot-03.jpg);
 }
 
@@ -329,7 +333,7 @@ h1 {
     list-style: none;
 }
 
-.footer-memu-list {
+.footer-menu-list {
     display: flex;
     flex-direction: column;
     align-content:center;
