@@ -188,7 +188,7 @@ h1 {
 }
 
 .lots {
-    padding: 180px 24px 0 24px;
+    padding: 182px 24px 0 24px;
 
 }
 
@@ -326,7 +326,7 @@ h1 {
 .footer {
     display: flex;
     justify-content: space-between;
-    padding: 0 50px 88px 50px;
+    padding: 1px 50px 88px 50px;
 }
 
 .footer-contacts {
